@@ -1,0 +1,20 @@
+@use 'abstracts' as a;
+
+body {
+	line-height: 1.6;
+	font-family: a.$fnt-body-text;
+}
+h1,
+h2,
+h3,
+h4,
+.heading {
+	font-family: a.$fnt-h-text;
+	line-height: 1;
+}
+
+p,
+ul,
+ol {
+	margin-bottom: 0.5rem;
+}

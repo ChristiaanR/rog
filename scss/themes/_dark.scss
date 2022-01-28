@@ -1,0 +1,19 @@
+@use 'abstracts' as a;
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--txt-color: #{a.$clr-text--inverted};
+		--bg-color: #{a.$clr-accent--dark};
+		--clr1: #{a.$clr-primary};
+		--clr2: #{a.$clr-accent};
+		--clr3: #{a.$clr-primary--light};
+		--clr4: #{a.$clr-primary--dark};
+		--clr5: #{a.$clr-accent--light};
+		--clr6: #{a.$clr-accent--dark};
+	}
+}
+
+.card {
+	background: a.$clr-accent;
+	box-shadow: 0 0.5rem 0.5rem hsl(0 0 2 / 0.2);
+}

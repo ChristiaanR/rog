@@ -1,0 +1,14 @@
+@use 'abstracts' as a;
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--bg-color: #{a.$clr-accent};
+		--txt-color: red;
+		--clr1: #{a.$clr-primary--light};
+		--clr2: #{a.$clr-primary--dark};
+		--clr3: #{a.$clr-accent--light};
+		--clr4: #{a.$clr-accent--dark};
+		--clr5: #{a.$clr-primary};
+		--clr6: #{a.$clr-accent};
+	}
+}

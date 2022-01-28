@@ -1,0 +1,29 @@
+@use 'abstracts' as a;
+
+:root {
+	color-scheme: light dark;
+}
+
+body {
+	color: var(--txt-color, #333);
+	background: var(--bg-color, #fafafa);
+}
+
+.clr1 {
+	background: var(--clr1);
+}
+.clr2 {
+	background: var(--clr2);
+}
+.clr3 {
+	background: var(--clr3);
+}
+.clr4 {
+	background: var(--clr4);
+}
+.clr5 {
+	background: var(--clr5);
+}
+.clr6 {
+	background: var(--clr6);
+}

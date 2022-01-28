@@ -1,0 +1,15 @@
+@use 'abstracts' as a;
+
+.skip-link {
+	position: absolute;
+	top: 0;
+	left: 1rem;
+	transform: translateY(-200%);
+	@include a.transform-in(transform);
+	&:focus {
+		transform: translateY(0);
+	}
+	background-color: greenyellow;
+	color: black;
+	padding: 1rem;
+}

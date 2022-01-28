@@ -1,0 +1,16 @@
+.color-blocks {
+	border: 2px dashed green;
+	overflow: auto;
+}
+.color-block {
+	float: left;
+	width: 4rem;
+	aspect-ratio: 1;
+	margin: 1rem;
+	margin-inline: 1rem;
+	box-shadow: 0.5rem 0.5rem 0.5rem rgb(0 0 0 / 0.3);
+}
+
+footer {
+	margin-top: 6rem;
+}

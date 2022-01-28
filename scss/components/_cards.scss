@@ -1,0 +1,17 @@
+@use 'abstracts' as a;
+
+.cards {
+	@include a.clean-list;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+	gap: 1rem;
+}
+
+.card {
+	border-radius: a.$border-radius--large;
+	overflow: hidden;
+}
+.card-title,
+.card-body {
+	padding-inline: 1rem;
+}

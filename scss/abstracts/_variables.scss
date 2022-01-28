@@ -1,0 +1,30 @@
+// Fonts
+
+$fnt-serif: 'Faustina', serif;
+$fnt-sans: 'Libre Franklin', sans-serif;
+
+$fnt-body-text: $fnt-sans;
+$fnt-h-text: $fnt-serif;
+
+// Colors
+
+$clr-primary: hsl(170 79 23);
+$clr-accent: hsl(295 79 23);
+$clr-primary--light: hsl(170 79 83);
+$clr-accent--light: hsl(295 79 88);
+$clr-primary--dark: hsl(170 79 13);
+$clr-accent--dark: hsl(295 79 8);
+
+$clr-text: hsl(0 0 20);
+$clr-text--inverted: hsl(0 0 98);
+
+$clr-link: $clr-accent;
+$clr-link--inverted: $clr-accent--light;
+
+// CSS3 stuff
+
+$border-radius: 0.5rem;
+$border-radius--small: 0.25rem;
+$border-radius--large: 1rem;
+
+$just-a-random-number: 12px;

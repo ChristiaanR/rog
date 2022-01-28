@@ -1,0 +1,16 @@
+/* Transform mixins */
+
+@mixin transform-in($prop: all) {
+	transition: $prop 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+@mixin transform-in-slow($prop: all) {
+	transition: $prop 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+@mixin transform-in-fast($prop: all) {
+	transition: $prop 0.1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+@mixin clean-list() {
+	list-style-type: none;
+	padding-left: 0;
+}
